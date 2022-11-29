@@ -1,0 +1,111 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  background: #21222a;
+  padding: 1.9375rem 1.6875rem 1.9375rem 1.6875rem;
+  color: #deebf8;
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  padding-right: 7px;
+}
+
+nav h3 {
+  color: #61dafb;
+  margin-right: auto;
+}
+
+main {
+  background: #282d35;
+  color: #fff;
+  height: 100vh;
+  padding: 3.5625rem 6.1875rem 3.5625rem 1.6875rem;
+  background-image: url("./assets/Group2.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 23%;
+  display: flex;
+}
+
+main h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/* typography */
+
+h1 {
+  font-size: 2.4375rem;
+  font-weight: 700;
+  line-height: 2.9375rem;
+  letter-spacing: -0.05em;
+}
+
+ul {
+  padding-top: 2.875rem;
+}
+
+li {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1875rem;
+  letter-spacing: 0em;
+  padding-bottom: 1.25rem;
+}
